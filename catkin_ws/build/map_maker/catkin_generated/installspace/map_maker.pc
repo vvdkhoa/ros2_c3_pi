@@ -1,0 +1,8 @@
+prefix=/home/pi/catkin_ws/install
+
+Name: map_maker
+Description: Description of map_maker
+Version: 0.0.0
+Cflags: -I/usr/include
+Libs: -L${prefix}/lib /usr/lib/arm-linux-gnueabihf/libtinyxml.so
+Requires: 

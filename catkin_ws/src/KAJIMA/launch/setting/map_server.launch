@@ -1,0 +1,10 @@
+<launch>
+	
+
+	<arg name="map_name" /> 
+        <node name="map_server" pkg="map_server" type="map_server" args="$(find KAJIMA)/map/$(arg map_name).yaml"/>
+<!--
+        <node name="map_server" pkg="map_server" type="map_server" args="$(find KAJIMA)/map/MapAutoSave.yaml"/>
+
+-->
+</launch>
